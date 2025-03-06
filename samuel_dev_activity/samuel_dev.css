@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(140,190,245);
+    display: flexbox;
+    justify-content: center;
+}
+h1 , h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}
+h1 {
+    color: rgb(0, 150,90);
+    background-color: rgb(240,240,255);
+    font-size: 80px;
+    justify-content: center;
+}
+h2 {
+    color:rgb(250,235,215);
+    background-color: rgb(0, 150, 90);
+    font-size: 36px;
+    justify-content: left;
+}
+p {
+    color: rgb(0,0,0);
+}
+header {
+    font-size: 50px;
+    color: rgb(0, 150, 90);
+    background-color: rgb(240,240,255);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+div {
+    background-color: rgb(240,240,255);
+}
+.headerDiv{
+    display: flex;
+    justify-content: center;
+}
+.paragraphDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    text-indent: 50px;
+    margin-right: 700px;
+    margin-left: 20px;
+}
+.imageDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.captionDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.captionDiv > p {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-indent: 0px;
+}
+#originalSketch {
+    width: 1300px;
+}
+#altOutfit {
+    width: 600px;
+}
+#colorOveralls {
+    width: 500px;
+}
+#screenshot {
+    width: 750px;
+}
+#halfScreen {
+    display: flex;
+    justify-content:space-evenly;
+}
+#halfScreen > p {
+    width: 750px;
+    margin-right: 200px;
+}
